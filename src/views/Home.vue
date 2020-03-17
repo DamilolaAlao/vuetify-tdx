@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div id="global-loader" v-show="isLoading">
+    <!-- <div id="global-loader" v-show="isLoading">
       <HomeLoader class="mobile-hidden"></HomeLoader>
-    </div>
+    </div> -->
     <div class="home">
       <start :isLoading="isLoading" @stop="stopLoader"></start>
       <categories></categories>
@@ -56,7 +56,7 @@ export default {
     testimonial,
     recent_post,
     BNav,
-    HomeLoader
+    // HomeLoader
   },
 
   computed: {

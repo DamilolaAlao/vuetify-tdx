@@ -128,7 +128,7 @@ export default {
                 pid: cart.pid,
                 quantity
             };
-            console.log(payload);
+            // console.log(payload);
             this.$emit('update-cart', payload);
             this.cartTotal();
         },
